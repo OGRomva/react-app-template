@@ -1,11 +1,13 @@
 
-import { Layout } from 'components/Layout';
+import { Counter, Layout } from 'components';
 import styles from './App.module.scss';
 
 function App() { 
   return (
     <div className={styles.App}>
-      <Layout></Layout>
+      <Layout>
+        <Counter></Counter>
+      </Layout>
     </div>
   );
 }
