@@ -1,9 +1,11 @@
-import styles from './App.module.css';
+
+import { Layout } from 'components/Layout';
+import styles from './App.module.scss';
 
 function App() { 
   return (
     <div className={styles.App}>
-      <div className="hui">huynia</div>
+      <Layout></Layout>
     </div>
   );
 }
